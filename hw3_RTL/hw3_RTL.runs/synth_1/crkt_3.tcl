@@ -31,7 +31,10 @@ set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property ip_output_repo /home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_vhdl -library xil_defaultlib /home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_1.vhd
+read_vhdl -library xil_defaultlib {
+  /home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_1.vhd
+  /home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_3.vhd
+}
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
 # design are intentionally left as such for best results. Dcp files will be
@@ -43,12 +46,12 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
 set_param ips.enableIPCacheLiteLoad 0
 close [open __synthesis_is_running__ w]
 
-synth_design -top crkt_1 -part xc7k70tfbv676-1
+synth_design -top crkt_3 -part xc7k70tfbv676-1
 
 
 # disable binary constraint mode for synth run checkpoints
 set_param constraints.enableBinaryConstraints false
-write_checkpoint -force -noxdef crkt_1.dcp
-create_report "synth_1_synth_report_utilization_0" "report_utilization -file crkt_1_utilization_synth.rpt -pb crkt_1_utilization_synth.pb"
+write_checkpoint -force -noxdef crkt_3.dcp
+create_report "synth_1_synth_report_utilization_0" "report_utilization -file crkt_3_utilization_synth.rpt -pb crkt_3_utilization_synth.pb"
 file delete __synthesis_is_running__
 close [open __synthesis_is_complete__ w]

@@ -6,4 +6,4 @@
 # Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 #
 
-vivado -log crkt_3.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source crkt_3.tcl
+vivado -log crkt_3.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source crkt_3.tcl -notrace

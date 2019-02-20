@@ -2,37 +2,39 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Tue Feb 19 19:21:08 2019
-# Process ID: 26927
+# Start of session at: Tue Feb 19 19:53:28 2019
+# Process ID: 28606
 # Current directory: /home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.runs/synth_1
-# Command line: vivado -log crkt_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source crkt_1.tcl
-# Log file: /home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.runs/synth_1/crkt_1.vds
+# Command line: vivado -log crkt_3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source crkt_3.tcl
+# Log file: /home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.runs/synth_1/crkt_3.vds
 # Journal file: /home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.runs/synth_1/vivado.jou
 #-----------------------------------------------------------
-source crkt_1.tcl -notrace
-Command: synth_design -top crkt_1 -part xc7k70tfbv676-1
+source crkt_3.tcl -notrace
+Command: synth_design -top crkt_3 -part xc7k70tfbv676-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 26933 
+INFO: Helper process launched with PID 28612 
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1255.445 ; gain = 76.891 ; free physical = 10569 ; free virtual = 28108
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1255.441 ; gain = 76.891 ; free physical = 10562 ; free virtual = 27989
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'crkt_1' [/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_1.vhd:104]
-INFO: [Synth 8-3491] module 'mux2to1' declared at '/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_1.vhd:36' bound to instance 'exer_1MUX' of component 'mux2to1' [/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_1.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'crkt_3' [/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_3.vhd:46]
+INFO: [Synth 8-3491] module 'mux2to1' declared at '/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_1.vhd:36' bound to instance 'mux1' of component 'mux2to1' [/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_3.vhd:69]
 INFO: [Synth 8-638] synthesizing module 'mux2to1' [/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_1.vhd:45]
 INFO: [Synth 8-226] default block is never used [/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_1.vhd:50]
 INFO: [Synth 8-256] done synthesizing module 'mux2to1' (1#1) [/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_1.vhd:45]
-INFO: [Synth 8-3491] module 'reg8' declared at '/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_1.vhd:66' bound to instance 'exer_1REG8' of component 'reg8' [/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_1.vhd:122]
+INFO: [Synth 8-3491] module 'reg8' declared at '/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_1.vhd:66' bound to instance 'regA' of component 'reg8' [/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_3.vhd:75]
 INFO: [Synth 8-638] synthesizing module 'reg8' [/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_1.vhd:75]
 INFO: [Synth 8-256] done synthesizing module 'reg8' (2#1) [/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_1.vhd:75]
-INFO: [Synth 8-256] done synthesizing module 'crkt_1' (3#1) [/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_1.vhd:104]
+INFO: [Synth 8-3491] module 'mux2to1' declared at '/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_1.vhd:36' bound to instance 'mux2' of component 'mux2to1' [/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_3.vhd:81]
+INFO: [Synth 8-3491] module 'reg8' declared at '/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_1.vhd:66' bound to instance 'regB' of component 'reg8' [/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_3.vhd:87]
+INFO: [Synth 8-256] done synthesizing module 'crkt_3' (3#1) [/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.srcs/sources_1/new/exer_3.vhd:46]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1300.070 ; gain = 121.516 ; free physical = 10582 ; free virtual = 28120
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1300.066 ; gain = 121.516 ; free physical = 10575 ; free virtual = 28001
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1300.070 ; gain = 121.516 ; free physical = 10582 ; free virtual = 28120
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1300.066 ; gain = 121.516 ; free physical = 10574 ; free virtual = 28001
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -40,10 +42,10 @@ Start Loading Part and Timing Information
 Loading part: xc7k70tfbv676-1
 INFO: [Device 21-403] Loading part xc7k70tfbv676-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1308.074 ; gain = 129.520 ; free physical = 10581 ; free virtual = 28119
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1308.070 ; gain = 129.520 ; free physical = 10573 ; free virtual = 28000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1316.082 ; gain = 137.527 ; free physical = 10573 ; free virtual = 28111
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1316.078 ; gain = 137.527 ; free physical = 10565 ; free virtual = 27992
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -57,9 +59,9 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Registers : 
-	                8 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
 +---Muxes : 
-	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -93,7 +95,7 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.035 ; gain = 245.480 ; free physical = 10427 ; free virtual = 27965
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.352 ; gain = 245.801 ; free physical = 10415 ; free virtual = 27842
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -106,7 +108,7 @@ No constraint files found.
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.035 ; gain = 245.480 ; free physical = 10427 ; free virtual = 27965
+Finished Timing Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.352 ; gain = 245.801 ; free physical = 10416 ; free virtual = 27842
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -118,7 +120,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:06 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.035 ; gain = 245.480 ; free physical = 10426 ; free virtual = 27964
+Finished Technology Mapping : Time (s): cpu = 00:00:06 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.352 ; gain = 245.801 ; free physical = 10415 ; free virtual = 27842
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -142,7 +144,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.035 ; gain = 245.480 ; free physical = 10426 ; free virtual = 27965
+Finished IO Insertion : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.352 ; gain = 245.801 ; free physical = 10415 ; free virtual = 27842
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -155,7 +157,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.035 ; gain = 245.480 ; free physical = 10427 ; free virtual = 27965
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.352 ; gain = 245.801 ; free physical = 10415 ; free virtual = 27842
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -167,25 +169,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.035 ; gain = 245.480 ; free physical = 10427 ; free virtual = 27965
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.352 ; gain = 245.801 ; free physical = 10415 ; free virtual = 27842
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.035 ; gain = 245.480 ; free physical = 10427 ; free virtual = 27965
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.352 ; gain = 245.801 ; free physical = 10415 ; free virtual = 27842
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.035 ; gain = 245.480 ; free physical = 10427 ; free virtual = 27965
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.352 ; gain = 245.801 ; free physical = 10415 ; free virtual = 27842
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.035 ; gain = 245.480 ; free physical = 10427 ; free virtual = 27965
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.352 ; gain = 245.801 ; free physical = 10415 ; free virtual = 27842
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -202,28 +204,30 @@ Report Cell Usage:
 |      |Cell |Count |
 +------+-----+------+
 |1     |BUFG |     1|
-|2     |LUT3 |     8|
-|3     |FDRE |     8|
-|4     |IBUF |    19|
+|2     |LUT3 |    16|
+|3     |FDRE |    16|
+|4     |IBUF |    21|
 |5     |OBUF |     8|
 +------+-----+------+
 
 Report Instance Areas: 
-+------+-------------+--------+------+
-|      |Instance     |Module  |Cells |
-+------+-------------+--------+------+
-|1     |top          |        |    44|
-|2     |  exer_1MUX  |mux2to1 |     8|
-|3     |  exer_1REG8 |reg8    |     8|
-+------+-------------+--------+------+
++------+---------+----------+------+
+|      |Instance |Module    |Cells |
++------+---------+----------+------+
+|1     |top      |          |    62|
+|2     |  mux1   |mux2to1   |     8|
+|3     |  mux2   |mux2to1_0 |     8|
+|4     |  regA   |reg8      |     8|
+|5     |  regB   |reg8_1    |     8|
++------+---------+----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.035 ; gain = 245.480 ; free physical = 10427 ; free virtual = 27965
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.352 ; gain = 245.801 ; free physical = 10415 ; free virtual = 27842
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.035 ; gain = 245.480 ; free physical = 10428 ; free virtual = 27966
-Synthesis Optimization Complete : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.043 ; gain = 245.480 ; free physical = 10428 ; free virtual = 27966
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.352 ; gain = 245.801 ; free physical = 10417 ; free virtual = 27844
+Synthesis Optimization Complete : Time (s): cpu = 00:00:07 ; elapsed = 00:00:21 . Memory (MB): peak = 1424.359 ; gain = 245.801 ; free physical = 10417 ; free virtual = 27844
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -231,11 +235,11 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-18 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+20 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:23 . Memory (MB): peak = 1564.086 ; gain = 385.641 ; free physical = 10391 ; free virtual = 27929
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:23 . Memory (MB): peak = 1564.402 ; gain = 385.961 ; free physical = 10387 ; free virtual = 27814
 WARNING: [Constraints 18-5210] No constraint will be written out.
-INFO: [Common 17-1381] The checkpoint '/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.runs/synth_1/crkt_1.dcp' has been generated.
-INFO: [runtcl-4] Executing : report_utilization -file crkt_1_utilization_synth.rpt -pb crkt_1_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.07 . Memory (MB): peak = 1588.098 ; gain = 0.000 ; free physical = 10393 ; free virtual = 27931
-INFO: [Common 17-206] Exiting Vivado at Tue Feb 19 19:21:37 2019...
+INFO: [Common 17-1381] The checkpoint '/home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.runs/synth_1/crkt_3.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file crkt_3_utilization_synth.rpt -pb crkt_3_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.08 . Memory (MB): peak = 1588.414 ; gain = 0.000 ; free physical = 10389 ; free virtual = 27815
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 19 19:53:56 2019...
