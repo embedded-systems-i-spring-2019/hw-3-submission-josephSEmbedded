@@ -1,13 +1,14 @@
-
-*** Running vivado
-    with args -log crkt_6.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source crkt_6.tcl
-
-
-****** Vivado v2018.2 (64-bit)
-  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
-  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
-
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Feb 19 21:49:30 2019
+# Process ID: 7552
+# Current directory: /home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.runs/synth_1
+# Command line: vivado -log crkt_6.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source crkt_6.tcl
+# Log file: /home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.runs/synth_1/crkt_6.vds
+# Journal file: /home/user/hw-3-submission-josephSEmbedded/hw3_RTL/hw3_RTL.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
 source crkt_6.tcl -notrace
 Command: synth_design -top crkt_6 -part xc7k70tfbv676-1
 Starting synth_design

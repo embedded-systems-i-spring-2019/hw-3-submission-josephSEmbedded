@@ -44,8 +44,10 @@ end decoder2t1;
 --2:1 Decoder architecture
 architecture my_decode of decoder2t1 is
 begin
-    OUT_1 <= DS;
-    OUT_0 <= not DS;
+
+OUT_0 <= not DS;
+OUT_1 <= DS;
+    
 end my_decode;
 
 library IEEE;

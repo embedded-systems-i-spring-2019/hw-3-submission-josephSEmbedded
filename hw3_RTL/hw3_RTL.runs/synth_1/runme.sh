@@ -36,4 +36,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log crkt_3.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source crkt_3.tcl
+EAStep vivado -log crkt_6.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source crkt_6.tcl
